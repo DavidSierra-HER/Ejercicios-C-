@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-
+#include <limits>
 
 void mostrarBalance(double balance);
 double depositar();
@@ -20,6 +20,11 @@ do{
     std::cout << "4.Salir" << '\n';
     std::cin >> opcion;
 
+  if(std::cin.fail()){
+    std::cin.clear();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    opcion = 0;
+}
 
     switch(opcion){
        
@@ -64,7 +69,7 @@ double depositar(){
        
         std::cout << "No se puede depositar una cantidad negativa." << '\n';
         return 0;
-        
+
     }else{
        
         return cantidad;
