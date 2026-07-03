@@ -1,22 +1,32 @@
 # Ejercicios C++
 
-Repositorio con ejercicios de práctica mientras aprendo C++. Cada carpeta contiene un ejercicio independiente con su propio código fuente.
+Repositorio de ejercicios de práctica mientras avanzo en un curso de C++. Cada carpeta es un ejercicio independiente, autocontenido, con su propio código fuente.
 
-## Contenido
+## Estructura
 
-### AplicacionBanco
-Simulador básico de operaciones bancarias por consola. Incluye:
-- Menú interactivo con `switch` y bucle `do-while`
-- Funciones con paso de parámetros y valores de retorno
-- Validación de depósitos y retiros (cantidades negativas, fondos insuficientes)
-- Formato de salida numérico con `iomanip`
+```
+Ejercicios-C++/
+├── AplicacionBanco/
+│   └── AplicacionBanco.cpp
+├── HelloWorld/
+│   └── Helloworld.cpp
+└── ...
+```
 
-### HelloWorld
-Primer programa de prueba en C++, básico "Hello World".
+Según avance el curso, se irán añadiendo nuevas carpetas con nuevos ejercicios.
+
+## Índice de ejercicios
+
+| Ejercicio | Descripción | Conceptos |
+|---|---|---|
+| [AplicacionBanco](./AplicacionBanco) | Simulador de operaciones bancarias por consola (ver balance, depositar, retirar) | Funciones con retorno, `switch`, `do-while`, validación de entradas, `iomanip` |
+| [HelloWorld](./HelloWorld) | Primer programa de prueba | Sintaxis básica, `std::cout` |
+
+*(Esta tabla se actualiza según se añaden ejercicios nuevos)*
 
 ## Compilación
 
-Cada ejercicio se compila con `g++`:
+Todos los ejercicios se compilan igual, con g++:
 
 ```bash
 g++ NombreDelArchivo.cpp -o NombreDelEjecutable
@@ -25,5 +35,5 @@ g++ NombreDelArchivo.cpp -o NombreDelEjecutable
 
 ## Notas
 
-- Los ejecutables (`.exe`) no se suben al repositorio (ver `.gitignore`).
-- Repositorio en construcción según avanzo en el curso.
+- Los ejecutables (.exe) no se suben al repositorio, están excluidos vía .gitignore.
+- Repositorio en construcción: el código refleja mi nivel de aprendizaje en cada momento, no busca ser código profesional optimizado.
