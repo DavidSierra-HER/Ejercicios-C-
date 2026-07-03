@@ -8,8 +8,10 @@ Repositorio de ejercicios de práctica mientras avanzo en un curso de C++. Cada 
 Ejercicios-C++/
 ├── AplicacionBanco/
 │   └── AplicacionBanco.cpp
-├── HelloWorld/
+├── HolaMundo/
 │   └── Helloworld.cpp
+├── PiedraPapelTijera/
+│   └── PiedraPapelTijera.cpp
 └── ...
 ```
 
@@ -20,7 +22,8 @@ Según avance el curso, se irán añadiendo nuevas carpetas con nuevos ejercicio
 | Ejercicio | Descripción | Conceptos |
 |---|---|---|
 | [AplicacionBanco](./AplicacionBanco) | Simulador de operaciones bancarias por consola (ver balance, depositar, retirar) | Funciones con retorno, `switch`, `do-while`, validación de entradas, `iomanip` |
-| [HelloWorld](./HelloWorld) | Primer programa de prueba | Sintaxis básica, `std::cout` |
+| [PiedraPapelTijera](./PiedraPapelTijera) | Juego de piedra, papel o tijera contra el ordenador | Funciones que devuelven `char`, generación aleatoria, comparación de selecciones |
+| [HolaMundo](./HolaMundo) | Primer programa de prueba | Sintaxis básica, `std::cout` |
 
 *(Esta tabla se actualiza según se añaden ejercicios nuevos)*
 
