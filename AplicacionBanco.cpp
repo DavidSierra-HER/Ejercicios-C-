@@ -53,7 +53,7 @@ do{
 
 void mostrarBalance(double balance){
 
-    std:: cout << "Su balanace actual es:$ " << std::setprecision(2) << std::fixed << balance << '\n';
+    std:: cout << "Su balance actual es:$ " << std::setprecision(2) << std::fixed << balance << '\n';
 
 }
 
