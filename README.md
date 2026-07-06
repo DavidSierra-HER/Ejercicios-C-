@@ -23,6 +23,7 @@ Según avance el curso, se irán añadiendo nuevas carpetas con nuevos ejercicio
 |---|---|---|
 | [AplicacionBanco](./AplicacionBanco) | Simulador de operaciones bancarias por consola (ver balance, depositar, retirar) | Funciones con retorno, `switch`, `do-while`, validación de entradas, `iomanip` |
 | [PiedraPapelTijera](./PiedraPapelTijera) | Juego de piedra, papel o tijera contra el ordenador | Funciones que devuelven `char`, generación aleatoria, comparación de selecciones |
+| [TresEnRaya](./TresEnRaya) | Juego de tres en raya contra el ordenador, con tablero dibujado por consola | Arrays (`char*`), funciones con punteros, dibujo de tablero con `cout`, comprobación de ganador/empate |
 | [HolaMundo](./HolaMundo) | Primer programa de prueba | Sintaxis básica, `std::cout` |
 
 *(Esta tabla se actualiza según se añaden ejercicios nuevos)*
